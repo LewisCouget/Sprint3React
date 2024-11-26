@@ -1,0 +1,72 @@
+:root {
+  --Moderate-violet-lite: hsl(263, 43%, 60%);
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--Light-grayish-blue);
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", monospace;
+  font-weight: 500, 600;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "Daniel"
+    "Jonathan"
+    "Jeanette"
+    "Patrick"
+    "Kira";
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.Daniel {
+  grid-area: Daniel;
+  border-radius: 8px;
+}
+
+.Jonathan {
+  grid-area: Jonathan;
+  border-radius: 8px;
+}
+
+.Jeanette {
+  grid-area: Jeanette;
+  border-radius: 8px;
+}
+
+.Patrick {
+  grid-area: Patrick;
+  border-radius: 8px;
+}
+
+.Kira {
+  grid-area: Kira;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+      "Daniel Daniel Jonathan Kira"
+      "Jeanette Patrick Patrick Kira";
+  }
+}

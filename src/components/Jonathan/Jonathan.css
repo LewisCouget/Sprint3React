@@ -1,0 +1,39 @@
+.Jonathan {
+  padding: 30px;
+  background-color: var(--Very-dark-grayish-blue);
+}
+
+.Jonathan_NameAndIcon {
+  display: flex;
+}
+
+.Jonathan_icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.Jonathan_icon {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.Jonathan_name-1 {
+  color: var(--White);
+}
+
+.Jonathan_name-2 {
+  color: var(--Light-gray);
+}
+
+.Jonathan_parr-1 {
+  padding-top: 10px;
+  font-size: 20px;
+  color: var(--White);
+}
+
+.Jonathan_parr-2 {
+  line-height: 18px;
+  padding-top: 15px;
+  color: var(--Light-gray);
+}

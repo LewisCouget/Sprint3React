@@ -1,0 +1,38 @@
+.Jeanette {
+  padding: 30px;
+  background-color: var(--White);
+}
+
+.Jeanette h3 {
+  color: var(--Very-dark-blackish-blue);
+}
+
+.Jeanette_NameAndIcon {
+  display: flex;
+}
+
+.Jeanette_icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.Jeanette_icon {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.Jeanette_name-2 {
+  color: var(--Very-dark-blackish-blue);
+}
+
+.Jeanette_parr-1 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.Jeanette_parr-2 {
+  line-height: 18px;
+  padding-top: 20px;
+  color: var(--Very-dark-blackish-blue);
+}

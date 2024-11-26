@@ -1,0 +1,33 @@
+.Kira {
+  padding: 30px;
+  background-color: var(--White);
+}
+
+.Kira_NameAndIcon {
+  display: flex;
+}
+.Kira_icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.Kira_icon {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.Kira_name-2 {
+  color: var(--Very-dark-grayish-blue);
+}
+
+.Kira_parr-1 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.Kira_parr-2 {
+  line-height: 18px;
+  padding-top: 20px;
+  color: var(--Very-dark-grayish-blue);
+}

@@ -1,0 +1,45 @@
+.Daniel {
+  background-color: var(--Moderate-violet);
+}
+
+.Comillas {
+  padding: 30px;
+  background: no-repeat url(../../images/bg-pattern-quotation.svg);
+  background-position: top right 80px;
+}
+
+.Daniel h3 {
+  color: var(--White);
+}
+
+.Danniel_NameAndIcon {
+  display: flex;
+}
+
+.Daniel_icon {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.Daniel_icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid var(--Moderate-violet-lite);
+}
+
+.Daniel_name-2 {
+  color: var(--Light-gray);
+}
+
+.Daniel_parr-1 {
+  padding-top: 10px;
+  font-size: 20px;
+  color: var(--White);
+}
+
+.Daniel_parr-2 {
+  line-height: 18px;
+  padding-top: 15px;
+  color: var(--Light-gray);
+}
