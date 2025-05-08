@@ -1,4 +1,4 @@
-import { useState } from "react";
+import react from "react";
 import Daniel from "./components/Daniel/Daniel";
 import Jonathan from "./components/Jonathan/Jonathan";
 import Jeanette from "./components/Jeanette/Jeanette";

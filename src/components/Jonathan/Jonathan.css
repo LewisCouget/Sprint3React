@@ -1,6 +1,7 @@
 .Jonathan {
   padding: 30px;
   background-color: var(--Very-dark-grayish-blue);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
 }
 
 .Jonathan_NameAndIcon {
@@ -18,8 +19,33 @@
   padding-right: 10px;
 }
 
+.Jonathan_name h3 {
+  text-decoration: none;
+  color: var(--White);
+  position: relative;
+}
+
+.Jonathan_name h3::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: var(--White);
+  bottom: -1px;
+  left: 0;
+  transition: cubic-bezier(0.6, -0.28, 0.735, 0.045) 0.3s;
+}
+
+.Jonathan_name h3:hover::after {
+  width: 100%;
+}
+
 .Jonathan_name-1 {
   color: var(--White);
+}
+
+.Jonathan_name-1:hover {
+  color: var(--Very-light-grayish-blue);
 }
 
 .Jonathan_name-2 {
